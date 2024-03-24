@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.TeacherGui">
+  <grid id="27dc6" binding="TeacherPanel" layout-manager="GridLayoutManager" row-count="7" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="43" width="508" height="322"/>
+    </constraints>
+    <properties>
+      <background color="-16119276"/>
+      <font/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="4ebfd">
+        <constraints>
+          <grid row="3" column="0" row-span="4" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="cafcc" class="javax.swing.JRadioButton" binding="btnSetPpaer">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16119276"/>
+          <enabled value="true"/>
+          <font name="Georgia" size="18" style="2"/>
+          <foreground color="-4474280"/>
+          <selected value="false"/>
+          <text value="    Set Paper   "/>
+        </properties>
+      </component>
+      <component id="f8a33" class="javax.swing.JRadioButton" binding="btnEditPpaer">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16119276"/>
+          <font name="Georgia" size="18" style="2"/>
+          <foreground color="-4474280"/>
+          <text value="   Edit Paper  "/>
+        </properties>
+      </component>
+      <component id="ca2c4" class="javax.swing.JRadioButton" binding="btnGrades">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16119276"/>
+          <font name="Georgia" size="18" style="2"/>
+          <foreground color="-4474280"/>
+          <text value="     Grades      "/>
+        </properties>
+      </component>
+      <component id="d60f1" class="javax.swing.JButton" binding="btnLogout">
+        <constraints>
+          <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16119276"/>
+          <font name="Consolas" size="15" style="1"/>
+          <foreground color="-4516061"/>
+          <text value="LOGOUT"/>
+        </properties>
+      </component>
+      <component id="3281b" class="javax.swing.JLabel" binding="JTeacher">
+        <constraints>
+          <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Consolas" size="20" style="1"/>
+          <foreground color="-4968261"/>
+          <text value="Teacher Portal"/>
+        </properties>
+      </component>
+      <component id="792b" class="javax.swing.JButton" binding="btnSelect">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16119276"/>
+          <font name="Consolas" size="15" style="1"/>
+          <foreground color="-6821323"/>
+          <text value="Select"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="selection">
+      <member id="cafcc"/>
+      <member id="f8a33"/>
+      <member id="ca2c4"/>
+    </group>
+  </buttonGroups>
+</form>
